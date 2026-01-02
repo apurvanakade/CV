@@ -39,6 +39,11 @@
 
 \begin{document}
 
+\begin{flushright}
+\small
+\fbox{\today}
+\end{flushright}
+
 %%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
 
 \noindent  \LARGE{\textbf{Apurva Nakade}}  \\
@@ -62,25 +67,24 @@
 %%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
 
-\noindent \begin{longtable}[l]{@{} p{2.5cm} p{12.75cm} r}
-
+\noindent \begin{longtable}[l]{@{} p{2.5cm} p{12.75cm} l}
 
 \input{experience.tex}
+\input{professional_development.tex}
 \input{teaching.tex}
+\input{service.tex}
 \input{papers.tex}
 \input{awards.tex}
-\input{service.tex}
-\input{professional_development.tex}
 \input{projects.tex}
 % \input{precollege.tex}
 % \input{course-development.tex}
 \input{talks.tex}
-\input{conferences.tex}
+% \input{conferences.tex}
 % \input{other-interests.tex}
-
 \end{longtable}
-\blfootnote{\begin{flushright}
-Updated on: \today{}.
-\end{flushright}}
+
+% \blfootnote{\begin{flushright}
+% Updated on: \today{}.
+% \end{flushright}}
 
 \end{document}
